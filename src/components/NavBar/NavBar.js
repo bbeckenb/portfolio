@@ -19,7 +19,7 @@ const NavigationBar = () => {
             <b className="social-brand">BB</b>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Collapse id="responsive-navbar-nav" style={{ backgroundColor: 'darkslateblue' }}>
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <Link
