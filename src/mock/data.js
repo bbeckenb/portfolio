@@ -4,9 +4,10 @@ import TechnicalSkills from '../components/Content/TechnicalSkills';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Bryce Beckenbach | Software Engineer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description:
+    'Portfolio site to display my most up-to-date technical skills, projects, and contact information', // e.g: Welcome to my website
 };
 
 // HERO DATA

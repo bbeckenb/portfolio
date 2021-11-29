@@ -11,6 +11,8 @@ export default () => {
   return (
     <>
       <Helmet>
+        <meta property="og:image" content="portfolio/src/images/PortfolioPic.png" />
+        <meta property="image" content="portfolio/src/images/PortfolioPic.png" />
         <meta charSet="utf-8" />
         <title>{title || 'Bryce Beckenbach | Software Engineer'}</title>
         <html lang={lang || 'en'} />
