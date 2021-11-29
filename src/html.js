@@ -19,6 +19,23 @@ export default function HTML({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta charSet="utf-8" />
+        <title>Bryce Beckenbach | Software Engineer</title>
+        <meta
+          name="description"
+          content="Portfolio site to display my most up-to-date technical skills, projects, and contact information!"
+        />
+        <meta property="og:title" content="Bryce Beckenbach | Software Engineer" />
+        <meta property="og:url" content="https://brycebeckenbach.netlify.app/" />
+        <meta
+          property="og:description"
+          content="Portfolio site to display my most up-to-date technical skills, projects, and contact information!"
+        />
+        <meta
+          property="og:image"
+          content="https://media.istockphoto.com/photos/innovation-and-science-concept-picture-id1177116437?k=20&m=1177116437&s=612x612&w=0&h=3aeSq8Wv-6gcpFzuUz40e62Xs_zKMDuSLDz79BshuZg="
+        />
+        <meta property="og:type" content="website" />
         {headComponents}
       </head>
       <body {...bodyAttributes}>
