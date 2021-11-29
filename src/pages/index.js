@@ -12,8 +12,22 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <meta property="og:image" content="./PortfolioPic.png" data-react-helmet="true" />
-        <meta property="image" content="./PortfolioPic.png" data-react-helmet="true" />
+        <meta
+          property="og:image"
+          content="https://www.thisgrandmaisfun.com/wp-content/uploads/2020/10/spiderweb-12.jpg"
+          data-react-helmet="true"
+        />
+        <meta
+          property="image"
+          content="https://www.thisgrandmaisfun.com/wp-content/uploads/2020/10/spiderweb-12.jpg"
+          data-react-helmet="true"
+        />
+        <meta
+          name="image"
+          property="og:image"
+          content="https://www.thisgrandmaisfun.com/wp-content/uploads/2020/10/spiderweb-12.jpg"
+          data-react-helmet="true"
+        />
         <meta
           property="og:title"
           content="Bryce Beckenbach | Software Engineer"
