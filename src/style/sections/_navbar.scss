@@ -1,0 +1,24 @@
+.portfolio-nav {
+    background-color: darkslateblue;
+    height: 65px;
+}
+
+.social-brand {
+    color: $primary-color;
+    font-size: 2.5rem;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.social-link {
+    color: whitesmoke;
+    font-size: 2rem;
+    transition: all 0.4s;
+    display: inline-block;
+
+    &:hover {
+        transform: translateY(-2px);
+        color: $primary-color;
+    }
+}
+    
