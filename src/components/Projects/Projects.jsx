@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
@@ -44,7 +44,14 @@ const Projects = () => {
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
                         <p>{info || 'Project Info'}</p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p>
+                          <ListGroup className="mb-4" variant="flush" style={{ size: '12px' }}>
+                            <ListGroup.Item>
+                              <b>Tech Stack:</b>
+                            </ListGroup.Item>
+                            {info2.map((line) => <ListGroup.Item>{line}</ListGroup.Item>) || null}
+                          </ListGroup>
+                        </p>
                       </div>
                       <a
                         target="_blank"

@@ -39,11 +39,29 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'getVocalToGovDisplayView.png',
+    title: 'Get Vocal To Government App',
+    info: 'Full-Stack application to lower barrier for citizens to petition their representatives and exchange ideas on current events.',
+    info2: [
+      'Front-end: React, Axios, React-Bootstrap, React Router, React Hook Form, Yup schema validation',
+      'Back-end: Node.js, Express, Node-postgres, jsonwebtoken, jsonschema, bcrypt, winston, Axios, dotenv, colors, cors',
+      'Testing: Jest, React-Testing-Library',
+      'Database: Postgres',
+    ],
+    url: 'https://getvocaltogov.surge.sh/',
+    repo: 'https://github.com/bbeckenb/GetVocalToGov', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'DisplayView.png',
     title: 'Wealth and Budget App',
     info: 'Full-Stack wealth aggregation dashboard and budget notification application. Utilizing the Plaid API, it allows users to connect and view balances of their financial institutions (e.g. Chase and/or Charles Schwab). Through the integration of the Twilio API, users can schedule budget notification text messages to the mobile number attached to their profile.',
-    info2:
-      'Tech Stack: PostgreSQL, Flask, Python, SQLAlchemy, CronJobs, WTForms, Bcrypt, Jinja2, HTML5, CSS, JavaScript, JQuery, BootStrap, Axios',
+    info2: [
+      'Front-end: HTML5, CSS, JavaScript, JQuery, BootStrap, Axios',
+      'Back-end: Flask, Python, SQLAlchemy, CronJobs, WTForms, Bcrypt, Jinja2',
+      'Testing: Python unittest',
+      'Database: PostgreSQL',
+    ],
     url: 'https://wealth-and-budget.herokuapp.com/',
     repo: 'https://github.com/bbeckenb/Wealth_and_Budget_App', // if no repo, the button will not show up
   },
