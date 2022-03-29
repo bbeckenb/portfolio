@@ -32,7 +32,7 @@ export const aboutData = {
   I continue to pursue mastery of software development. I would love to explore ways 
   that I can help your organization succeed.`,
   paragraphThree: <TechnicalSkills />,
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1Afo4OevA_9SPBJAfd0yaXF6-xdakd1gD/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -50,6 +50,7 @@ export const projectsData = [
     ],
     url: 'https://getvocaltogov.surge.sh/',
     repo: 'https://github.com/bbeckenb/GetVocalToGov', // if no repo, the button will not show up
+    task: 'https://docs.google.com/spreadsheets/d/1C9-HziEA2xDq6dj5qQEEVncp0WuVA2_JTUHK9ed7AFI/edit?usp=sharing',
   },
   {
     id: nanoid(),
@@ -64,6 +65,7 @@ export const projectsData = [
     ],
     url: 'https://wealth-and-budget.herokuapp.com/',
     repo: 'https://github.com/bbeckenb/Wealth_and_Budget_App', // if no repo, the button will not show up
+    task: 'https://docs.google.com/spreadsheets/d/17XXLBr107CS-l9tNQ_2nJSP2cB4gsUjRzwuSWVMzv_E/edit?usp=sharing',
   },
 ];
 
