@@ -57,6 +57,18 @@ const NavigationBar = () => {
                   <b className="social-link">Contact</b>
                 </Link>
               </li>
+              <li className="nav-item">
+                <a
+                  id="resume"
+                  className="Nav-Element nav-link active"
+                  href="https://drive.google.com/file/d/1Afo4OevA_9SPBJAfd0yaXF6-xdakd1gD/view?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label="resume"
+                >
+                  <b className="social-link">Resume</b>
+                </a>
+              </li>
             </ul>
             <ul className="mt-3 mt-lg-0 navbar-nav">
               <a
